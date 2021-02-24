@@ -3796,7 +3796,7 @@ void _read_images(header_info **hList, uint32_t hCount, int totalClasses, int un
 //            const char *TCJPersonName = "TCJPerson";
 //
 //            if (strcmp(mangledName, TCJPersonName) == 0) {
-//                auto kc_ro = (const class_ro_t *)cls->data();
+//                auto cj_ro = (const class_ro_t *)cls->data();
 //                printf("_getObjc2NonlazyClassList: 这个是我要研究的 %s \n",TCJPersonName);
 //            }
             

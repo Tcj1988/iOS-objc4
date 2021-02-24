@@ -152,7 +152,7 @@
 		D91E3BA325A52ED800F109BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E3BA225A52ED800F109BA /* main.m */; };
 		D91E3BB125A52F0D00F109BA /* libobjc.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC0630554660B00DB518D /* libobjc.A.dylib */; };
 		D963F8AC25DDA21F002A1E29 /* TCJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F8AA25DDA21E002A1E29 /* TCJPerson.m */; };
-		D9C2C96125E23F4800A41933 /* TCJPerson+TCJA.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C2C96025E23F4800A41933 /* TCJPerson+TCJA.m */; };
+		D9A17A9225E4D33C003DCA3C /* TCJPerson+TCJA.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A17A9125E4D33C003DCA3C /* TCJPerson+TCJA.m */; };
 		D9C2C96B25E23FB500A41933 /* TCJPerson+TCJB.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C2C96A25E23FB500A41933 /* TCJPerson+TCJB.m */; };
 		E8923DA5116AB2820071B552 /* objc-block-trampolines.mm in Sources */ = {isa = PBXBuildFile; fileRef = E8923DA0116AB2820071B552 /* objc-block-trampolines.mm */; };
 		E934A9F123E996D00088F26F /* objc4.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = E934A9EF23E9967D0088F26F /* objc4.plist */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -344,9 +344,9 @@
 		D91E3BA225A52ED800F109BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D963F8AA25DDA21E002A1E29 /* TCJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCJPerson.m; sourceTree = "<group>"; };
 		D963F8AB25DDA21F002A1E29 /* TCJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCJPerson.h; sourceTree = "<group>"; };
+		D9A17A9025E4D33C003DCA3C /* TCJPerson+TCJA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCJPerson+TCJA.h"; sourceTree = "<group>"; };
+		D9A17A9125E4D33C003DCA3C /* TCJPerson+TCJA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TCJPerson+TCJA.m"; sourceTree = "<group>"; };
 		D9C2C95725E224F200A41933 /* main-arm64.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "main-arm64.cpp"; sourceTree = "<group>"; };
-		D9C2C95F25E23F4800A41933 /* TCJPerson+TCJA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCJPerson+TCJA.h"; sourceTree = "<group>"; };
-		D9C2C96025E23F4800A41933 /* TCJPerson+TCJA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TCJPerson+TCJA.m"; sourceTree = "<group>"; };
 		D9C2C96925E23FB500A41933 /* TCJPerson+TCJB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCJPerson+TCJB.h"; sourceTree = "<group>"; };
 		D9C2C96A25E23FB500A41933 /* TCJPerson+TCJB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TCJPerson+TCJB.m"; sourceTree = "<group>"; };
 		E8923D9C116AB2820071B552 /* objc-blocktramps-i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-blocktramps-i386.s"; path = "runtime/objc-blocktramps-i386.s"; sourceTree = "<group>"; };
@@ -602,8 +602,8 @@
 				D91E3BA225A52ED800F109BA /* main.m */,
 				D963F8AB25DDA21F002A1E29 /* TCJPerson.h */,
 				D963F8AA25DDA21E002A1E29 /* TCJPerson.m */,
-				D9C2C95F25E23F4800A41933 /* TCJPerson+TCJA.h */,
-				D9C2C96025E23F4800A41933 /* TCJPerson+TCJA.m */,
+				D9A17A9025E4D33C003DCA3C /* TCJPerson+TCJA.h */,
+				D9A17A9125E4D33C003DCA3C /* TCJPerson+TCJA.m */,
 				D9C2C96925E23FB500A41933 /* TCJPerson+TCJB.h */,
 				D9C2C96A25E23FB500A41933 /* TCJPerson+TCJB.m */,
 			);
@@ -947,8 +947,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9A17A9225E4D33C003DCA3C /* TCJPerson+TCJA.m in Sources */,
 				D91E3BA325A52ED800F109BA /* main.m in Sources */,
-				D9C2C96125E23F4800A41933 /* TCJPerson+TCJA.m in Sources */,
 				D963F8AC25DDA21F002A1E29 /* TCJPerson.m in Sources */,
 				D9C2C96B25E23FB500A41933 /* TCJPerson+TCJB.m in Sources */,
 			);

@@ -12,7 +12,6 @@
 #import "TCJPerson+TCJA.h"
 
 @implementation TCJPerson (TCJA)
-
 + (void)load{
 
 }
